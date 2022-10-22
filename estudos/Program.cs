@@ -13,6 +13,8 @@ builder.Services.AddControllers();
 
 builder.Services.AddDbContext<DataContext>(x => x.UseInMemoryDatabase("Database"));
 
+builder.Services.AddScoped<DataContext, DataContext>();
+
 var key = Encoding.ASCII.GetBytes(Settings.Secret);
 builder.Services.AddAuthentication(x =>
 {

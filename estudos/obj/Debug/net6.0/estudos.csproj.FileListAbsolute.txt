@@ -33,7 +33,6 @@ C:\Users\USUARIO\Desktop\EstudosDotNet\estudos\bin\Debug\net6.0\estudos.runtimec
 C:\Users\USUARIO\Desktop\EstudosDotNet\estudos\bin\Debug\net6.0\estudos.dll
 C:\Users\USUARIO\Desktop\EstudosDotNet\estudos\bin\Debug\net6.0\ref\estudos.dll
 C:\Users\USUARIO\Desktop\EstudosDotNet\estudos\bin\Debug\net6.0\estudos.pdb
-C:\Users\USUARIO\Desktop\EstudosDotNet\estudos\bin\Debug\net6.0\DevExpress.Data.v22.1.dll
 C:\Users\USUARIO\Desktop\EstudosDotNet\estudos\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\USUARIO\Desktop\EstudosDotNet\estudos\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\USUARIO\Desktop\EstudosDotNet\estudos\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
