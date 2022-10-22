@@ -7,7 +7,7 @@ namespace estudos.Controllers
     public  class CategoryController : ControllerBase
     {
         [HttpGet]
-        [Route("")]
+        [Route("categories")]
         public async Task<ActionResult<List<Category>>> Get()
         {
             return new List<Category>();
@@ -15,7 +15,6 @@ namespace estudos.Controllers
 
         [HttpPost]
         [Route("")]
-        [Authorize(Policy = "Teste", Roles ="Teste")]
         public async Task<ActionResult<List<Category>>> Post([FromBody] Category category)
         {
             return Ok(category);
