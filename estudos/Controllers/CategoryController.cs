@@ -1,4 +1,5 @@
 ﻿using estudos.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace estudos.Controllers
@@ -14,6 +15,7 @@ namespace estudos.Controllers
 
         [HttpPost]
         [Route("")]
+        [Authorize(Policy = "Teste", Roles ="Teste")]
         public async Task<ActionResult<List<Category>>> Post([FromBody] Category category)
         {
             return Ok(category);

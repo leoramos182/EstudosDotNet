@@ -8,4 +8,5 @@
 
 ## Estudos sobre Token JWT e Autenticação
 * Criação do serviço para geração do token
-* No UserController, na task de login chama o serviço do token, para gerar um JWT se houver um usuário existente.
+* Para Autenticar o usuário, chama o serviço do token na Task Authorize
+* Para Autorizar usuários, usar [Authorize(Policy,Roles)] nas Tasks da controller

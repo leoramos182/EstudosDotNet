@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2K5QKn8jm7nrGb93HKyIHGa65OMfa/LRNK0vvzfispN8vgpBAjiir3GLHOdMq62LriJmC5vO+mNHueCMkvt6Ew==",
+  "dgSpecHash": "eT7RQuHTG9nTEn+lSP3V0e93qOEw4LJzOI0biSDFyuhl4w2NQLYYkYTftyqDJeOSXt1VsR6qAkNGkW2OqPmACg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USUARIO\\source\\repos\\WebApi\\estudos\\estudos\\estudos.csproj",
+  "projectFilePath": "C:\\Users\\USUARIO\\Desktop\\EstudosDotNet\\estudos\\estudos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USUARIO\\.nuget\\packages\\devexpress.data\\22.1.6\\devexpress.data.22.1.6.nupkg.sha512",
     "C:\\Users\\USUARIO\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
