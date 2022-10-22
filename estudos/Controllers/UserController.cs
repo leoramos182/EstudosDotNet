@@ -33,11 +33,21 @@ namespace estudos.Controllers
             }
         }
 
+        [HttpGet]
+        [Route("")]
+        public async Task<ActionResult<User>> Get(
+            [FromServices] DataContext context)
+        {
+            var users = await context.Users.ToListAsync();
+
+            return Ok(users);
+        }
+
 
         [HttpPost]
         [Route("login")]
         public async Task<ActionResult<dynamic>> Authenticate(
-            [FromBody] DataContext context,
+            [FromServices] DataContext context,
             [FromBody] User model) 
         { 
             var user = await context.Users

@@ -1,4 +1,5 @@
-﻿using estudos.Models;
+﻿using estudos.Data;
+using estudos.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,9 +16,16 @@ namespace estudos.Controllers
 
         [HttpPost]
         [Route("")]
-        public async Task<ActionResult<List<Category>>> Post([FromBody] Category category)
+        public async Task<ActionResult<List<Category>>> Post(
+            [FromBody] Category model,
+            [FromServices] DataContext context)
         {
-            return Ok(category);
+            if(!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            context.Categories.Add(model);
+            await context.SaveChangesAsync();
+            return Ok(model);
         }
 
         [HttpGet]
